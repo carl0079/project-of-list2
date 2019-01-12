@@ -1,0 +1,38 @@
+# -*- coding:utf-8 -*-
+#!/usr/bin/env python
+
+# 1.字符串
+# age = input('请输入年龄:')
+# if age.isdigit():
+#     age+=1
+# print(age)
+
+print(len('name'))
+print('a' in 'Albert')
+
+
+# 2.列表
+a = [1,2,3,4,5,6]
+a.insert(3, 'b')
+del a[4]
+print(a)
+
+
+# 3.字典
+a = {'name':'carl',
+     'age' :19,
+     'gender':'male'
+     }
+del a['age']
+
+print(a)
+
+
+
+# 4.集合的运算
+pythons={"albert","孙悟空","周星驰","朱茵","林志玲"}
+ais={"猪八戒","张卫健","周星驰","张家辉"}
+print(pythons & ais)
+print(pythons | ais)
+print(pythons - ais)
+print(pythons ^ ais)
